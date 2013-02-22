@@ -10,5 +10,19 @@
 ;; set font size
 (set-face-attribute 'default nil :height 100)
 
+;; indent after new line
+(define-key global-map (kbd "RET") 'newline-and-indent)
 
+;; temporary stuff for installing icicles
+;;(when (> emacs-major-version 23)
+;;  (require 'package)
+;;  (package-initialize)
+;;  (add-to-list 'package-archives 
+;;               '("melpa" . "http://melpa.milkbox.net/packages/")
+;;               'Append))
+;;(load "~/elisp/icicles-install")
 
+;; everything to enable icicles
+(add-to-list 'load-path "~/elisp/icicles/")
+(require 'icicles)
+(icy-mode)
