@@ -23,6 +23,14 @@
 ;;(load "~/elisp/icicles-install")
 
 ;; everything to enable icicles
-(add-to-list 'load-path "~/elisp/icicles/")
-(require 'icicles)
-(icy-mode)
+;(add-to-list 'load-path "~/elisp/icicles/")
+;(require 'icicles)
+;(icy-mode)
+
+;; no tabs by default. modes that really need tabs should enable
+;; indent-tabs-mode explicitly. makefile-mode already does that, for
+;; example.
+(setq-default indent-tabs-mode nil)
+
+;; remove trailing whitespace upon save
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
