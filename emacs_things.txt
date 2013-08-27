@@ -1,0 +1,8 @@
+Replace in files
+================
+
+1. M-x find-name-dired
+2. hit t ("toggle mark")
+3. hit Q ("Query-Replace in Files...")
+4. SPACE (replace), n (skip)
+
