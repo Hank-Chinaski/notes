@@ -30,6 +30,9 @@
 ;; local dir for more lisp stuff
 (add-to-list 'load-path "~/lisp/")
 
-;; haml-mode
+;; modes
 (require 'ruby-mode)
-(require 'haml-mode)
+;;(require 'haml-mode)
+
+;; file type to mode associations
+(add-to-list 'auto-mode-alist '("\\.qml\\'" . javascript-mode))
