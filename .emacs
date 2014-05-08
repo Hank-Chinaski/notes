@@ -24,9 +24,6 @@
 ;; remove trailing whitespace upon save
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
-;; local dir for more lisp stuff # TODO-hel: unify with .emacs.d
-(add-to-list 'load-path "~/lisp/")
-
 ;; add .emacs.d to load path
 (add-to-list 'load-path "~/.emacs.d")
 
