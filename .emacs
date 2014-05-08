@@ -1,6 +1,3 @@
-;; don't save backup files
-(setq make-backup-files nil)
-
 ;; print python debugger line on Control-p
 (global-set-key (kbd "C-x [") "import pdb;pdb.set_trace()")
 (global-set-key (kbd "C-x p") "import ipdb;ipdb.set_trace()")
@@ -36,3 +33,7 @@
 
 ;; file type to mode associations
 (add-to-list 'auto-mode-alist '("\\.qml\\'" . javascript-mode))
+
+;; don't save backup files
+(setq make-backup-files nil)
+(setq auto-save-default nil)
