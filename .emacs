@@ -37,3 +37,10 @@
 ;; don't save backup files
 (setq make-backup-files nil)
 (setq auto-save-default nil)
+
+;; don't indent in namespaces
+(defconst my-c-style
+  '("gnu"
+    (c-offsets-alist . ((innamespace . [0])))))
+(c-add-style "my-c-style" my-c-style)
+(setq c-default-style "my-c-style")
