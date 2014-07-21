@@ -24,7 +24,9 @@
 ;; remove trailing whitespace upon save
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
-;; add .emacs.d to load path
+;; add .emacs.d to load path; contains:
+;; + auto-save-list (dir)
+;; + column-marker.el
 (add-to-list 'load-path "~/.emacs.d")
 
 ;; modes
@@ -44,3 +46,6 @@
     (c-offsets-alist . ((innamespace . [0])))))
 (c-add-style "my-c-style" my-c-style)
 (setq c-default-style "my-c-style")
+
+;; column marker
+(require 'column-marker)
