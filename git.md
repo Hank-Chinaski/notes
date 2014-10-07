@@ -15,6 +15,9 @@ When unsure if some action will be successful, do the following:
 ###### Resetting a branch
 
     $ git reset --hard HEAD~2 // to two commits before
-    or
+
+or
+
     $ git reset --hard [commit hash]
-    [more](http://git-scm.com/docs/git-reset)
+
+[more](http://git-scm.com/docs/git-reset)
