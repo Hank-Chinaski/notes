@@ -14,7 +14,7 @@ or
 [more](http://git-scm.com/docs/git-reset)
 
 
-###### Make a backup of a branch
+###### Backing up a branch
 
 When unsure if some action will be successful, do the following:
 
