@@ -6,8 +6,3 @@ Replace in files
 3. hit Q ("Query-Replace in Files...")
 4. SPACE (replace), n (skip)
 
-
-Column marker
-=============
-
-C-u 70 M-x column-marker-2
