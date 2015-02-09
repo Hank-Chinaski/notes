@@ -40,3 +40,8 @@ When unsure if some action will be successful, do the following:
     $ git reset --soft HEAD^ (->staged)
     $ git reset --hard HEAD^ (->abandone)
     $ git reset [commit] (->unstaged all following)
+
+
+###### Do something with all submodules
+
+    $ git submodule foreach [...]
