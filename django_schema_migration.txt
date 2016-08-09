@@ -1,3 +1,0 @@
-python abl/web/manage.py schemamigration --auto abl.shopback
-
-google: django south (good documentation says Noel!)
