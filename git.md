@@ -4,3 +4,8 @@
 # keep commits in order for github
 $ git rebase origin/master --ignore-date
 ```
+
+```
+# push with just a little force
+$ git push --force-with-lease
+```
