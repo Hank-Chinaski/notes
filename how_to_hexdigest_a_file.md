@@ -1,3 +1,6 @@
+# How to hex-digest a file
+
+```
 hel@client8104:~/tmp/livepacks$ ll
 total 670040
 drwxr-xr-x  2 hel hel      4096 2012-01-19 11:57 ./
@@ -23,3 +26,4 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> foo.hexdigest()
 '3ca990d9726017bbabf0e62905fde412'
 hel@client8104:~/tmp/livepacks$
+```
