@@ -10,3 +10,8 @@ $ do something 2>&1 | grep "what"
 # (reverse-i-search)`':
 # Ctrl-R
 ```
+
+```
+# change directory for one command
+$ (cd ../live && gitk)
+```
