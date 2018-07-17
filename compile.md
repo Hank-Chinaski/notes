@@ -11,3 +11,8 @@
 
     $ g++ main.cpp foo.cpp
     $ ./a.out
+
+### Supress warnings
+
+    $ cfg --no-werrors
+    $ bld
