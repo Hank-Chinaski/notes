@@ -28,5 +28,5 @@ repo/.git-blame-ignore-revs
 
 ```
 couldn't execute "git": argument list too long
--> remove [repo]/.git/.gitkcache
+-> remove [repo]/.git/gitk.cache
 ```
